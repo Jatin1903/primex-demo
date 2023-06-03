@@ -50,6 +50,9 @@ $(document).ready(function(){
 
         ]
     });
-    // $(document).ready(function(){
-    // });
+    $('.nav-item').click(function(){
+        $('.navbar-right').animate({
+            right: "-100%"
+        })
+    });
 });
