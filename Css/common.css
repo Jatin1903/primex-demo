@@ -338,6 +338,12 @@ footer ul {
 @media (max-width: 991px) {
   footer ul {
     width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+  }
+  footer ul:last-of-type {
+    border-bottom: none;
   }
 }
 footer ul li {
