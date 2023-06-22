@@ -1,6 +1,25 @@
 body {
   font-family: Space Grotesk;
 }
+.nav-with-banner {
+  background-image: url(../img/Prime-main-banner.png) !important;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#navbarSupportedContent .navbar-logo {
+  background-image: url(../img/Logo-black.png);
+  background-repeat: no-repeat;
+  height: 72px;
+  width: 100px;
+}
+#menu1-0 .navbar-logo {
+  background-image: url(../img/Logo-black.png);
+  background-repeat: no-repeat;
+  height: 72px;
+  width: 100px;
+}
+
 .display-1 {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 4.4rem;
@@ -715,7 +734,7 @@ a {
   transition: all 0.6s ease-out;
 }
 .cid-ttRteJbtJm .navbar-dropdown {
-  background-color: #000000 !important;
+  background-color: #00000085 !important;
   padding: 0;
 }
 .cid-ttRteJbtJm .navbar.navbar-expand-lg .dropdown .dropdown-menu {
@@ -996,7 +1015,7 @@ a {
 }
 .cid-ttRteJbtJm .navbar {
   min-height: 70px;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   transition: all 0.3s;
   border-bottom-width: 0;
 }
@@ -1282,9 +1301,9 @@ a {
 .cid-ttRteJbtJm a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
   background-image: none;
 }
-.cid-ttRteTadKS {
+/* .cid-ttRteTadKS {
   background-color: #000000;
-}
+} */
 .cid-ttRteTadKS .mbr-fallback-image.disabled {
   display: none;
 }
